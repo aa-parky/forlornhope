@@ -1,6 +1,5 @@
 import cv2
 import os
-import shutil
 from datetime import datetime
 
 
@@ -73,7 +72,7 @@ os.makedirs(output_dir, exist_ok=True)
 count = 0
 
 # Open the output file
-output_file = 'faces_count.txt'  # Output file remains in the current working directory
+output_file = '../faces_count.txt'  # Output file remains in the current working directory
 with open(output_file, 'w') as f:
     print("Processing images...")
 
